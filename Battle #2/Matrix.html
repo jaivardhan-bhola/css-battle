@@ -1,0 +1,64 @@
+<div class="container">
+      <div class="body">
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+<style>
+body {
+  background-color: #171d23;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.body {
+  background: #5c434c;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+i {
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+}
+
+i:before {
+  content: '';
+  border-radius: 50%;
+  background: #f09462;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+}
+
+i:nth-child(2n):before {
+  background: #f5d6b4;
+}
+</style>
