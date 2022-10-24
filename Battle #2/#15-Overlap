@@ -1,0 +1,1 @@
+<div class="left"></div><div class="right"><div class="inner"></div></div><style>body{background:#09042A;}div{position:absolute;width:150px;height:150px;border-radius:50%;}.left{background:#7B3F61;top:75px;left:75px;}.right{background:#E78481;top:75px;right:75px;overflow:hidden;}.inner{background:#09042A;left:-100px;}</style>
