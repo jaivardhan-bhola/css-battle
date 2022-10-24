@@ -1,0 +1,14 @@
+<div></div>
+<style>
+  body{
+    background:#0B2429
+  }
+div{
+  background-color:#F3AC3C;
+  height: 200px;
+  left: -100px;
+  position: absolute;
+  top: -100px;
+  width: 200px;
+  rotate:-45deg;
+}
